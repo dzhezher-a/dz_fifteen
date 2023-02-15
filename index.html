@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="200 symbols" />
+    <meta name="author" content="Artem Dzhezher" />
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-navigation">
+        <div class="top-navigation__button">
+          <button onclick="location.href='#'" type="button">Home</button>
+        </div>
+        <div class="top-navigation__button">
+          <button onclick="location.href='#'" type="button">
+            <i class="fa fa-caret-down"></i> Products
+          </button>
+          <div class="sub-navigation">
+            <div class="sub-navigation__button top-navigation__button">
+              <button onclick="location.href='#'" type="button">
+                Product 1
+              </button>
+            </div>
+            <div class="sub-navigation__button top-navigation__button">
+              <button onclick="location.href='#'" type="button">
+                <i class="fa fa-caret-right"></i> Product 2
+              </button>
+              <div class="sub-navigation">
+                <div class="sub-navigation__button top-navigation__button">
+                  <button onclick="location.href='#'" type="button">
+                    Sub item
+                  </button>
+                </div>
+                <div class="sub-navigation__button top-navigation__button">
+                  <button onclick="location.href='#'" type="button">
+                    Sub item
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-navigation__button">
+          <button onclick="location.href='#'" type="button">About</button>
+        </div>
+        <div class="top-navigation__button">
+          <button onclick="location.href='#'" type="button">Contact</button>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
